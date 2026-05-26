@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <ApplicationIcon />
+        <AssemblyName>TeamsStatus2Mqtt</AssemblyName>
+        <RootNamespace>TeamsStatus2Mqtt</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Identity.Client" Version="4.66.2" />
+        <PackageReference Include="MQTTnet" Version="4.3.7.1207" />
+    </ItemGroup>
+
+</Project>
